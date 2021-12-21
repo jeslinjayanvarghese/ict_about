@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+//ashin
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -13,7 +13,15 @@ import { PartnershipComponent } from './Offerings/partnership/partnership.compon
 import { HomeMainComponent } from './Home/home-main/home-main.component';
 
 
+//sandeep
+import { BannerHomeComponent } from './Home/banner-home/banner-home.component';
+import { VideoComponent } from './Home/video/video.component';
+import { CardsComponent } from './Home/cards/cards.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { TesterComponent } from './Home/tester/tester.component';
 
+
+//Jeslin
 import { AboutMainComponent } from './About/about-main/about-main.component';
 import { BannerComponent } from './About/banner/banner.component';
 import { AbtComponent } from './About/abt/abt.component';
@@ -26,7 +34,7 @@ import { MarketingPartnersComponent } from './About/marketing-partners/marketing
 import { TrainersComponent } from './About/trainers/trainers.component';
 import { KnowledgePartnersComponent } from './About/knowledge-partners/knowledge-partners.component';
 import { VendorsComponent } from './vendors/vendors.component';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { LandingPageComponent } from './landing-page.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +48,15 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     PartnershipComponent,
     HomeMainComponent,
     AboutMainComponent,
+    LandingPageComponent,
+    //Sandeep
+    BannerHomeComponent,
+    VideoComponent,
+    CardsComponent,
+    TesterComponent,
+    
+
+   //Jeslin
     BannerComponent,
     AbtComponent,
     FeatureComponent,
